@@ -23,6 +23,7 @@ public:
     void agregarFigura(float radio);
     void agregarFigura(int base, int altura);
     void agregarFigura(int lado, int diagonalMayor,int diagonalMenor);
+    void agregarFigura(float base, float altura, float l1, float l2);
     void dibujarFiguras();
     void dibujarFiguras(int color); //sobrecarga del metodo para dibujar con colores
     void mostrarAreaFigura();

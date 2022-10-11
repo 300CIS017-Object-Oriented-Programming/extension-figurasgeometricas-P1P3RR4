@@ -31,6 +31,10 @@ void Programa::agregarFigura(int lado, int diagonalMayor,int diagonalMenor){
     vectorFiguras.push_back(new Rombo(lado, diagonalMayor, diagonalMenor));
 }
 
+void Programa::agregarFigura(float base, float altura, float l1, float l2) {
+    vectorFiguras.push_back(new Triangulo(base, altura, l1, l2));
+}
+
 void Programa::mostrarAreaFigura() {
     float area;
     for(auto & figura : vectorFiguras){
