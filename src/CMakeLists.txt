@@ -3,7 +3,7 @@
 include_directories(Model)
 include_directories(View)
 
-file(GLOB_RECURSE SOURCES Model/FiguraGeometrica.cpp Model/FiguraGeometrica.h Model/Cuadrado.cpp Model/Cuadrado.h Model/Circulo.cpp Model/Circulo.h Model/Rectangulo.cpp Model/Rectangulo.h Model/Rombo.cpp Model/Rombo.h View/View.cpp View/View.h )  #Todas las fuentes sin el Main
+file(GLOB_RECURSE SOURCES Model/FiguraGeometrica.cpp Model/FiguraGeometrica.h Model/Cuadrado.cpp Model/Cuadrado.h Model/Circulo.cpp Model/Circulo.h Model/Rectangulo.cpp Model/Rectangulo.h Model/Rombo.cpp Model/Rombo.h Model/Triangulo.cpp Model/Triangulo.h View/View.cpp View/View.h )  #Todas las fuentes sin el Main
 
 
 set(BINARY ${CMAKE_PROJECT_NAME})  # El nombre va a a estar en el CMake principal
